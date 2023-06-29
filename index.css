@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background: #1C1C1C;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    background: #1F2937;
+    width: 550px;
+    margin: 60px auto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #D5D4D8;
+    padding-top: 105px ;
+    padding-left: 50px; 
+    display: flex;
+    flex-direction: column;  
+}
+
+.request-section {
+    width: 446px;
+}
+
+span {
+    color: #4ADF86;
+}
+
+h1 {
+    width: 354px;
+    font-family: 'Karla', sans-serif;
+    color: #FFF;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+}
+
+#btn-el {
+    color: white;
+    border-radius: 6px;
+    background: #10B981;
+    border: none;
+    padding: 9px 15px;
+    width: 190px;
+    font-size: 16px;
+}
+
+hr {
+    margin: 35px 0;
+    border: 1px solid #2F3E53;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.generate-section {
+    display: flex;
+    flex-direction: row;    
+}
+
+.password-prop {
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    background: #273549;
+    margin-bottom: 115px;
+    margin-right: 24px;
+}
+
+.generated-pass {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #10B981;
+    font-size: 16px;
+    font-weight: 500;   
+}
